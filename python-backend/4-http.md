@@ -2,7 +2,8 @@
 
 ## HTTP
 
-> HyperText Transfer Protocol
+> HyperText Transfer Protocol  
+
 웹상에서 서로 다른 서버 간에 하이퍼텍스트 문서(HTML)를 주고받을 수 있도록 만들어진 프로토콜
 
 
@@ -26,8 +27,8 @@ def ping():
 * 👎 HTTP 요청을 보낼 때는 해당 요청을 처리하기 위해 필요한 모든 데이터를 매번 포함시켜 요청해야 함
 	-> 이를 해결하기 위해 쿠키(cookie, 클라이언트 측에 데이터 저장)나 세션(session, 서버 측에 데이터 저장)등 사용
 
-
-
+<br>
+  
 ### HTTP 요청 구조
 
 ##### Start Line
@@ -47,7 +48,7 @@ GET /test HTTP/1.1
 
 ##### Headers
 
-```
+```http
 Accept: application/json
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
@@ -71,7 +72,7 @@ HTTP 요청 그 자체에 대한 정보가 key - value 로 구성
 
 ##### Body
 
-```
+```http
 {
 	"uid": "qwer1234",
 	"status": "happy"
@@ -82,8 +83,8 @@ HTTP 요청 그 자체에 대한 정보가 key - value 로 구성
 
 만약 전송하는 데이터가 없다면 body 부분은 비어있음
 
-
-
+<br>
+  
 ### HTTP 응답 구조
 
 ##### Status Line
@@ -103,7 +104,7 @@ HTTP/1.1 404 Not Found
 
 ##### Headers
 
-```
+```http
 Connection: close
 Content-Length: 1573
 Content-Type: text/html; charset=UTF-8
@@ -125,8 +126,8 @@ HTTP 요청의 헤더 부분과 동일, 다만 응답에서만 사용되는 헤�
 
 HTTP 요청의 body 부분과 동일
 
-
-
+<br>
+  
 ### 자주 사용되는 HTTP 메소드
 
 #### GET
@@ -159,8 +160,8 @@ Content-Length: 0
 
 데이터 삭제 요청
 
-
-
+<br>
+  
 ### 자주 사용되는 HTTP Status Code와 Text
 
 #### 200 OK
@@ -187,7 +188,7 @@ Content-Length: 0
 #### 500 Interneal Server Error
 내부 서버 오류 발생
 
-
+<br>
 
 ### API 엔드 포인트 아키텍처 패턴
 
@@ -209,14 +210,14 @@ API의 구조가 특정 클라이언트에 맞추어져서 다른 클라이언�
 
 예를 들어, 일반적인 REST 방식에서 아이디가 1인 사용자의 정보와 그의 친구들의 이름 정보를 받아오고자 할때,
 
-```
+```http
 GET /users/1
 GET /users/1/friends
 ```
 
 와 같이 두번의 HTTP 요청을 보내거나
 
-```
+```http
 GET /users/1?include=friends.name
 ```
 
