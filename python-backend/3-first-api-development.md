@@ -25,7 +25,7 @@ app = Flask("test")
 
 
 
-[app.py]()
+[app.py](https://github.com/s2zan/TIL/blob/master/python-backend/3-source/app.py)
 
 ```python
 from flask import Flask
