@@ -45,7 +45,7 @@ def ping():
 ##### API 실행하기
 
 ```
-FLASK_APP =. pp.py FLASK_DEBUG=1 flask run
+FLASK_APP = app.py FLASK_DEBUG=1 flask run
 ```
 
 `FLASK_DEBUG`를 1로 지정하여 디버그 모드를 활성화하면 코드 수정되었을 때 flask 애플리케이션이 자동으로 재시작되어 수정된 코드가 반영된다.
