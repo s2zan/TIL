@@ -4,9 +4,13 @@
 
 <br>
 
-실습 코드 : [miniter](https://github.com/s2zan/miniter)
+### 실습 코드
+
+* [miniter](https://github.com/s2zan/miniter)
 
 <br>
+
+### 목차
 
 1. 파이썬 설치 및 개발 환경 구성
 2. [현대 웹 시스템 구조 및 아키텍처](https://github.com/s2zan/TIL/blob/master/python-backend/2-web-system-architecture.md)
