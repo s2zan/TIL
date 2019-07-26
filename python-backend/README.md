@@ -19,4 +19,5 @@
 5. [본격적으로 API 개발하기](https://github.com/s2zan/TIL/blob/master/python-backend/5-api-development.md) (미니 트위터 만들기)
 6. [데이터베이스](https://github.com/s2zan/TIL/blob/master/python-backend/6-database.md) 
 7. [인증](https://github.com/s2zan/TIL/blob/master/python-backend/7-authentication.md)
+8. [unit test](https://github.com/s2zan/TIL/blob/master/python-backend/8-unit-test.md)
 
