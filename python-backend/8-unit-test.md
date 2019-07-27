@@ -11,7 +11,7 @@
 
 * 시스템 테스트 방법 (기능으로 분류)
 
-  * [UI test / End-To-End test](#UI-test-/-End-To-End-test)
+  * [UI test / End-To-End test](#ui-test-/-end-to-end-test)
   * [integration test](#integration-test)
   * [unit test](#unit-test) ⭐️
 
