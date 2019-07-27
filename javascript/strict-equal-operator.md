@@ -37,6 +37,8 @@ undefined === null  // false
 
 <br>
 
+`===` 과 `!==`  사용을 권장!!
+
 ### 참고
 
 * [JavaScript 동치연산자 ==와 ===의 차이점](https://hyunseob.github.io/2015/07/30/diffrence-between-equality-and-identity-in-javascript/)
