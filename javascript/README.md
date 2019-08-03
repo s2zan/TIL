@@ -6,4 +6,5 @@
 * [논리 연산자](https://github.com/s2zan/TIL/blob/master/javascript/logical-operator.md)
 * [세미콜론;](https://github.com/s2zan/TIL/blob/master/javascript/semicolon.md)
 * [== vs ===](https://github.com/s2zan/TIL/blob/master/javascript/strict-equal-operator.md)
+* [String.slice() vs String.substring()](https://github.com/s2zan/TIL/blob/master/javascript/slice-vs-substring.md)
 
