@@ -19,4 +19,5 @@
 7. [인증](https://github.com/s2zan/TIL/blob/master/python-backend/7-authentication.md)
 8. [unit test](https://github.com/s2zan/TIL/blob/master/python-backend/8-unit-test.md)
 9. [AWS에 배포하기](https://github.com/s2zan/TIL/blob/master/python-backend/9-deploy-to-AWS.md)
+10. [API 아키텍처](https://github.com/s2zan/TIL/blob/master/python-backend/10-api-architecture.md)
 
