@@ -1,14 +1,8 @@
 # JavaScript
 
-📝 궁금한게 생기면 반드시! 공부하고 기록합니다
-
 <br>
 
-### 목차
-1. [변수](#변수)
-2. [연산자](#연산자)
-3. [문자열](#문자열)
-4. [기타](#기타)
+[JavaScript로 서버와 클라이언트 구축하기](https://github.com/s2zan/TIL/tree/master/javascript-server-client) (교내 특강)
 
 <br>
 
