@@ -1,6 +1,6 @@
 # SQL
 
-w3schools [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
+>  w3schools [SQL Tutorial](https://www.w3schools.com/sql/default.asp) 을 공부하고, 기본 문법 정리 + 연습문제 풀기
 
 * [SELECT](https://github.com/s2zan/TIL/blob/master/sql/select.md)
 * [WHERE](https://github.com/s2zan/TIL/blob/master/sql/where.md)
