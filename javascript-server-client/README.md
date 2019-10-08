@@ -20,3 +20,8 @@
 
 * [JavaScript 기초](https://github.com/s2zan/TIL/blob/master/javascript-server-client/javascript.md) ([실습 코드](https://github.com/s2zan/TIL/Tree/master/javascript-server-client/source/_03_javascript))
 
+4일차
+
+* Vue.js 기초 ([실습코드](https://github.com/s2zan/TIL/Tree/master/javascript-server-client/source/_04_vuejs))
+  * 라이프사이클
+  * 전역 컴포넌트와 지역 컴포넌트
